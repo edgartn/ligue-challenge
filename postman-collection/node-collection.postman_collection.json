@@ -1,0 +1,227 @@
+{
+	"info": {
+		"_postman_id": "e05d229e-68ec-43d3-be1e-b2e84c151b25",
+		"name": "node-collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "listAllDevelopers",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/developers/",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"developers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/developers/15",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"developers",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "deleteDeveloper",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/developers/12",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"developers",
+						"12"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "createDeveloper",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Batata\",\n    \"sex\": \"M\",\n    \"age\": 55,\n    \"hobby\": \"cast\",\n    \"birthdate\": \"2011-06-02\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/developers",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"developers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "updateDeveloper",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"tica\"\n\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/developers/15",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"developers",
+						"15"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "listByFilter",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/developers/15",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"developers",
+						"15"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
