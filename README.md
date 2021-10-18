@@ -71,6 +71,7 @@ yarn add jest nodemon sequelize-cli sqlite3 supertest -d
 |DELETE /developers/{id}|Apaga o registro de um desenvolvedor|
 
 A collection do postman para as requisições está na pasta `\postman-collection\node-collection.postman_collection.json`
+https://github.com/edgartn/ligue-challenge/tree/main/postman-collection
 
 # Especificação
 https://bitbucket.org/gabrielsartor/ligue-challenge/src/master/README.md
